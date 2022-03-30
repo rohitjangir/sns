@@ -1,0 +1,446 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* html{
+    scroll-behavior: smooth;
+} */
+
+.tim{
+    color: black;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 100px;
+}
+.a1{
+    padding-bottom: 265px;
+}
+
+.a2{
+    padding-bottom: 143px;
+}
+.navbar{
+    display: flex;
+    position: sticky;
+    cursor: pointer;
+    top: 0;
+    /* align-items: left; */
+    justify-content: center;
+    align-items: center;
+}
+
+.inline{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 150px;
+    display: flex;
+    flex-direction: column;
+    max-width: 2%;
+}
+.bg{
+    background: rgb(226, 225, 222);
+}
+.navlist{
+    width: 100%;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.navlist li{
+    list-style: none;
+    padding: 20px 25px;
+}
+
+.navlist li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.navlist li a:hover{
+    color: rgb(11, 34, 243);
+}
+
+.hi{
+    color: rgb(131, 125, 125);
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.para{
+    font-size: 25px;
+    /* justify-content: left; */
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+}
+
+
+.dp{
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+}
+
+.dp1{
+    width: 45px;
+}
+
+.dp2{
+    width: 45px;
+}
+
+/* .inline{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+} */
+/* .inline{
+    display: flex;
+} */
+
+/* .sm{
+    display: block;
+} */
+/* .myself{
+    padding: 50px;
+} */
+
+.h2{
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 45px;
+    /* 
+     */
+     font-family: 'Courier New', Courier, monospace;
+     color: rgb(11, 26, 243);
+}
+
+.ed{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.ed1{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.gca img{
+    width: 150px;
+
+}
+
+.iiit img{
+    width: 400px;
+    /* padding-top: 100px;
+    padding-left: 500px; */
+    padding-top: 50px;
+}
+
+.paraiiit{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* padding-top: 150px; */
+    padding-top: 50px;
+}
+
+/* .geca img{
+    width: 150px;
+    padding-top: 100px;
+    padding-right: 700px;
+} */
+
+.parageca{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 30px;
+    padding-right: 200px;
+}
+
+.hl{
+    color: blue;
+    text-decoration: none;
+}
+
+.About{
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 45px;
+    /* 
+     */
+     font-family: 'Courier New', Courier, monospace;
+     color: rgb(11, 26, 243);
+}
+/* 
+.sm{
+    padding-top: 50px;
+} */
+
+.pointsabtme {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 100px;
+    text-align: center;
+}
+
+/* .pointsabtme1{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+
+} */
+.booksh1
+{
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 45px;
+    /* 
+     */
+     font-family: 'Courier New', Courier, monospace;
+     color: rgb(11, 26, 243);
+}
+
+.booksh{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.bookspara{
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 100px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+table{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th{
+    text-align: left;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td{
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.movies{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.text-center{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    background: black;
+    color: white;
+    /* font-size: 30px; */
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.dp3{
+    justify-content: center;
+    text-align: center;
+    padding-left: 760px;
+    padding-top: 10px;
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+
+.line{
+    width: 30px;
+    background-color: rgb(0, 0, 0);
+    height: 2px;
+    margin: 5px 3px;
+}
+
+ /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+} 
+
+@media only screen and (max-width: 1110px)
+{
+    .burger{
+        display: block;
+    }
+    .navbar{
+        height: 250px;
+        transition: all 0.3s ease-out;
+    }
+    .vc{
+        opacity: 0;
+    }
+    .navlist{
+        flex-direction: column;
+    }
+    .hlist{
+        height: 50px;
+    }
+
+    .ed{
+        flex-direction: column;
+    }
+
+    /* .ed1{
+        /* flex-direction: column-reverse; */
+
+
+    .iiit img{
+        width: 40%;
+        /* height: 100px;
+        padding-left: 300px; */
+    }
+    .paraiiit{
+        font-size: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* .parageca{
+        padding-top: 300px;
+        font-size: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    } */
+
+    .ed1{
+        flex-direction: column;
+    }
+    .parageca{
+        font-size: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .gca img{
+        /* display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; */
+    width: 40%;
+    }
+
+    /* .geca{
+        width: 120%;
+    } */
+    /* .edu{
+        align-items: center;
+        justify-content: space-evenly;
+        margin: auto;
+    } */
+    .para{
+        font-size: 20px;
+    }
+
+    .hi{
+        font-size: 30px;
+    }
+
+    .pointsabtme{
+        font-size: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* .pointsabtme1{
+        margin-left: auto;
+        margin-right: auto;
+    } */
+    .booksh{
+        font-size: 25px;
+    }
+
+    .bookspara{
+        font-size: 20px;
+    }
+
+    .movies{
+        font-size: 20px;
+    }
+    table{
+        height: 300px;
+    }
+
+    .h2{
+        font-size: 35px;
+    }
+
+    .About{
+        font-size: 35px;
+    }
+    .booksh1{
+        font-size: 35px;
+    }
+
+    .inline{
+        top: 250px;
+    }
+}
